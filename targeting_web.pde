@@ -75,7 +75,7 @@ void draw ()
       updatePointCloud (testImg, MORPH_MODE);
     }
     
-    saveFrame("frames\\line-######.png");
+    //saveFrame("frames\\line-######.png");
 }
 
 

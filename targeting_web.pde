@@ -1,5 +1,4 @@
-/* OpenProcessing Tweak of *@*http://www.openprocessing.org/sketch/81905*@* */
-/* !do not delete the line above, required for linking your tweak if you upload again */
+/* Sketch based on *@*http://www.openprocessing.org/sketch/81905*@* */
 import java.awt.event.KeyEvent;
 
 PointCloud pc;
@@ -75,7 +74,7 @@ void draw ()
       updatePointCloud (testImg, MORPH_MODE);
     }
     
-    //saveFrame("frames\\line-######.png");
+    saveFrame("frames\\line-######.png");
 }
 
 
